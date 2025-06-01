@@ -1,6 +1,4 @@
-# ISMRM-2024: NLCG-Net: A Model-Based Zero-Shot Learning Framework for Undersampled Quantitative MRI Reconstruction
-
-11/4/2024 update: Our work has been accepted by ISMRM 2024 as poster! Link: https://arxiv.org/abs/2401.12004
+# NLCG-Net: A Model-Based Zero-Shot Learning Framework for Undersampled Quantitative MRI Reconstruction
 
 Codes for T2 case have been optimised to be more compliant with the specification, making it easier to implement by specifying parameters in 'parser_ops.py'. Note that the work output is being developed into a journal paper, and the latest NLCG-Net turns out to be more powerful than when it was firstly purposed (08/11/2023).
 
