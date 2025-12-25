@@ -7,7 +7,7 @@ as described in:
 > *NLCG-Net: A Model-Based Zero-Shot Learning Framework for Undersampled Quantitative MRI Reconstruction*,  
 > accepted by ISMRM 2024.
 
-Paper (arXiv): [https://arxiv.org/abs/2401.12004](https://arxiv.org/abs/2401.12004) [file:1]
+Paper (arXiv): [https://arxiv.org/abs/2401.12004](https://arxiv.org/abs/2401.12004)
 
 The repository currently provides implementations for both **T2 mapping** (`t2`) and **T1 mapping** (`t1`).
 
