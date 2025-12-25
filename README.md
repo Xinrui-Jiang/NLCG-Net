@@ -1,5 +1,23 @@
 # NLCG-Net: A Model-Based Zero-Shot Learning Framework for Undersampled Quantitative MRI Reconstruction
 
-Codes for T2 case have been optimised to be more compliant with the specification, making it easier to implement by specifying parameters in 'parser_ops.py'. Note that the work output is being developed into a journal paper, and the latest NLCG-Net turns out to be more powerful than when it was firstly purposed (08/11/2023).
+Official implementation of **NLCG-Net** for undersampled quantitative MRI (qMRI) reconstruction,  
+as described in:
 
-1/2024 This version of code is being further organized so that it can be more reader-friendly. 't1' refers to T1 mapping, and 't2' refers to T2 mapping. Differences are mainly in 'data_consistency.py' because they have different imaging bases and raw data. Please feel free to comment if you meet any problem running codes
+> Xinrui Jiang, Yohan Jun, Jaejin Cho, Mengze Gao, Xingwang Yong, Berkin Bilgic,  
+> *NLCG-Net: A Model-Based Zero-Shot Learning Framework for Undersampled Quantitative MRI Reconstruction*,  
+> accepted by ISMRM 2024.
+
+Paper (arXiv): https://arxiv.org/abs/2401.12004
+
+The repository currently provides implementations for both **T2 mapping** (`t2`) and **T1 mapping** (`t1`).
+
+---
+
+## Status
+
+- **1/2024 update:** the codebase is being reorganized to be more reader-friendly.  
+  - `t1/` contains code for T1 mapping.  
+  - `t2/` contains code for T2 mapping.  
+  - The main differences lie in `data_consistency.py`, since T1 and T2 use different signal models and raw data.
+
+If you encounter any issues when running the code, please feel free to open an issue or submit a pull request.
