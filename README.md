@@ -19,6 +19,7 @@ The repository currently provides implementations for both **T2 mapping** (`T2`)
   <img src="images/framework.png" alt="NLCG-Net framework" width="80%">
 </p>
 
+NLCG-Net is a **model-based zero-shot learning** framework that directly estimates T1/T2 quantitative maps from undersampled k-space data, instead of following the conventional two-step “reconstruct-then-fit” pipeline, thereby reducing bias and error propagation. It unrolls a nonlinear conjugate gradient optimization with a light U-Net regularizer that is trained in a scan-specific, self-supervised fashion using mono-exponential signal models, enabling high-fidelity T1 and T2 mapping without external training data. Experiments on highly accelerated T2 and T1 mapping demonstrate improved estimation quality and reduced artifacts compared to subspace reconstruction, especially at higher acceleration factors.
 ---
 
 ## Status
