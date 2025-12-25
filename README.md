@@ -24,8 +24,8 @@ The repository currently provides implementations for both **T2 mapping** (`t2`)
 ## Status
 
 - **1/2024 update:** the codebase is being reorganized to be more reader-friendly.  
-  - `t1/` contains code for T1 mapping.  
-  - `t2/` contains code for T2 mapping.  
+  - `T1/` contains code for T1 mapping.  
+  - `T2/` contains code for T2 mapping.  
   - The main differences lie in `data_consistency.py`, since T1 and T2 use different signal models and raw data.
 
 If you encounter any issues when running the code, please feel free to open an issue or submit a pull request.
