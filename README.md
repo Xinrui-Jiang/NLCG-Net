@@ -9,7 +9,7 @@ as described in:
 
 Paper (arXiv): [https://arxiv.org/abs/2401.12004](https://arxiv.org/abs/2401.12004)
 
-The repository currently provides implementations for both **T2 mapping** (`t2`) and **T1 mapping** (`t1`).
+The repository currently provides implementations for both **T2 mapping** (`T2`) and **T1 mapping** (`T1`).
 
 ---
 
